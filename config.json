@@ -1,14 +1,13 @@
 {
 	"log": {
-		"access": "/var/log/v2ray/access.log",
-		"error": "/var/log/v2ray/error.log",
+		"access": "",
+		"error": "",
 		"loglevel": "warning"
 	},
 	"inbounds": [
 		{
 			"port": 64944,
 			"protocol": "vmess",
-			"listen":"167.179.111.76",
 			"settings": {
 				"clients": [
 					{
@@ -40,7 +39,6 @@
         {
             "protocol": "mtproto",
             "port": 33669,
-       	"listen":"167.179.111.76",
             "tag": "tg-in",
             "settings": {
                 "users": [
